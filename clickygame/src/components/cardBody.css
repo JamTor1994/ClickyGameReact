@@ -1,0 +1,18 @@
+.images{
+    width: 180px;
+    padding: 20px;
+    
+    border: solid;
+    border-color: black;   
+    float: left       
+}
+img {
+    width: 150px;
+    
+}
+h3{
+    text-align: center
+}
+.row{
+    width: 102%;
+}
