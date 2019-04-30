@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../img.json"
 import './cardBody.css';
 
 
@@ -8,7 +7,7 @@ class Cardbody extends React.Component {
         super(props)
         this.state = { names: [] }
 
-    }
+    };
 
 
 
@@ -19,10 +18,9 @@ class Cardbody extends React.Component {
             <div className="card-container">
                 <div className="row">
                     <div className="container">
-
                         <div>
                             {
-                                images.map(photo => {
+                                this.props.images.map(photo => {
                                     return (
                                         <div className="images" key={photo.id} onClick={
                                             event => {
@@ -36,7 +34,6 @@ class Cardbody extends React.Component {
                                 })
                             }
                         </div>
-
                     </div>
                 </div>
             </div >
