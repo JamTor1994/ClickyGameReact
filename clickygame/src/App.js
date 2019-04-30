@@ -8,12 +8,11 @@ import Counter from "./components/clickCounter";
 function App() {
   return (
     <div className="App">
+    <div>Header</div>
       <div>
-        return <Counter />;
+         <Counter />;
       </div>
-      <div>
-        imgContianer
-      </div>
+     
       <div>
         Footer
       </div>
